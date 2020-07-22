@@ -1,0 +1,15 @@
+.carousel-indicators {
+    bottom: -2rem;
+}
+
+.carousel-inner {
+    margin-bottom: 2rem;
+}
+
+.carousel-indicators li {
+    background-color: #d11f36;
+}
+
+.nav {
+    margin-bottom: 1rem;
+}
