@@ -1,0 +1,29 @@
+<%- include ("../partials/header") %>
+<div class="text-center mt-5 pt-5">
+    <h1>Textbook Marketplace</h1>
+    <p class="lead">for The Ohio State University</p>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" style="bottom: -2rem;">
+            <li data-target="#carousel" data-slide-to="0" class="active" style="background-color: #d11f36;"></li>
+            <li data-target="#carousel" data-slide-to="1" style="background-color: #d11f36;"></li>
+        </ol>
+        <div class="carousel-inner" style="margin-bottom: 2rem;">
+            <div class="carousel-item active">
+                <p><b>Buyer's Guide</b></p>
+                <p>Search for a book</p>
+                <p>Contact seller</p>
+                <p>Arrange to meet on campus</p>
+                <p>Buy in-person</p>
+            </div>
+            <div class="carousel-item">
+                <p><b>Seller's Guide</b></p>
+                <p>List your book</p>
+                <p>Interested students will contact you</p>
+                <p>Arrange to meet on campus</p>
+                <p>Sell in-person</p>
+            </div>
+        </div>
+    </div>
+    <a class="btn btn-danger" href="/getstarted" role="button">Get Started</a>
+</div>
+<%- include ("../partials/footer") %>
